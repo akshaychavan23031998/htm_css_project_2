@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'work sans';
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-end;
+    padding: 0 50px;
+    gap: 70px;
+    padding-top: 100px;
+    /* background-color: blueviolet; */
+}
+#left{
+    width: 45%;
+    height: 100%;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#left h1{
+    font-size: 100px;
+    font-weight: 300;
+    line-height: 105px;
+
+} 
+#bottom_left{
+    /* height: 40%; */
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#color{
+    width: fit-content;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+}
+#color h5{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 200;
+}
+#color1{
+    width: 15px;
+    height: 15px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin: 5px;
+}
+#color2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(188, 168, 206);
+}
+#left h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+#left p{
+    color: #555;
+    width: 80%;
+    padding-bottom: 15px;
+}
+
+#right{
+    width: 30%;
+    height: 90%;
+    /* background-color: blue; */
+    position: relative;
+}
+#right_top {
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#right_top h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+#right_top h5 {
+    font-size: 12px;
+    font-weight: 400;
+}
+#right_top h5 i{
+    color: gold;
+}
+
+#right img {
+    width: 100%;
+    height: 88%;
+    object-fit: cover;
+}
+
+#black_circule {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(22, 22, 29);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    right: -15%;
+    top: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+#rotated {
+    position: absolute;
+    left: -10%;
+    font-size: 30px;
+    font-weight: 500;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    bottom: 5%;
+}
